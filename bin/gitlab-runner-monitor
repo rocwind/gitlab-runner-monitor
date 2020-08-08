@@ -1,0 +1,11 @@
+#!/usr/bin/env node
+const os = require('os');
+const path = require('path');
+const dotenv = require('dotenv');
+// try home dir ~/.gitlab-runner-monitor
+dotenv.config({ path: path.join(os.homedir(), '.gitlab-runner-monitor') });
+// try current folder
+dotenv.config();
+
+const importJsx = require('import-jsx');
+importJsx('../lib/app.jsx');

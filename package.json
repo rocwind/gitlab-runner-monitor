@@ -1,0 +1,39 @@
+{
+  "name": "gitlab-runner-monitor",
+  "version": "0.1.0",
+  "description": "list running jobs of gitlab ci runners",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./bin/gitlab-runner-monitor",
+    "release": "standard-version && git push --follow-tags origin master && npm publish",
+    "test": "echo \"Error: no test specified\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rocwind/gitlab-runner-monitor.git"
+  },
+  "keywords": [
+    "gitlab",
+    "ci",
+    "gitlab",
+    "runner",
+    "gitlab",
+    "ci"
+  ],
+  "author": "Roc",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rocwind/gitlab-runner-monitor/issues"
+  },
+  "homepage": "https://github.com/rocwind/gitlab-runner-monitor#readme",
+  "dependencies": {
+    "bent": "^7.3.9",
+    "dotenv": "^8.2.0",
+    "import-jsx": "^4.0.0",
+    "ink": "^3.0.3",
+    "react": "^16.13.1"
+  },
+  "devDependencies": {
+    "standard-version": "^8.0.2"
+  }
+}
