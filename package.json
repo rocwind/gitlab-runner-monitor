@@ -8,6 +8,9 @@
     "release": "standard-version && git push --follow-tags origin master && npm publish",
     "test": "echo \"Error: no test specified\""
   },
+  "bin": {
+    "gitlab-runner-monitor": "bin/gitlab-runner-monitor"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rocwind/gitlab-runner-monitor.git"
