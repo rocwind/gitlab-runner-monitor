@@ -18,10 +18,8 @@
   "keywords": [
     "gitlab",
     "ci",
-    "gitlab",
-    "runner",
-    "gitlab",
-    "ci"
+    "gitlab runner",
+    "gitlab ci"
   ],
   "author": "Roc",
   "license": "MIT",
