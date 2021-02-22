@@ -32,7 +32,7 @@
     "dotenv": "^8.2.0",
     "import-jsx": "^4.0.0",
     "ink": "^3.0.3",
-    "react": "^16.13.1"
+    "react": "^17.0.0"
   },
   "devDependencies": {
     "standard-version": "9.1.1"
