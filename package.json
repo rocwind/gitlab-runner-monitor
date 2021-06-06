@@ -29,7 +29,7 @@
   "homepage": "https://github.com/rocwind/gitlab-runner-monitor#readme",
   "dependencies": {
     "bent": "^7.3.9",
-    "dotenv": "^8.2.0",
+    "dotenv": "^10.0.0",
     "import-jsx": "^4.0.0",
     "ink": "^3.0.3",
     "react": "^17.0.0"
