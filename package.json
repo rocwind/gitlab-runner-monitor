@@ -28,13 +28,13 @@
   },
   "homepage": "https://github.com/rocwind/gitlab-runner-monitor#readme",
   "dependencies": {
-    "bent": "^7.3.9",
+    "bent": "^7.3.12",
     "dotenv": "^10.0.0",
     "import-jsx": "^4.0.0",
-    "ink": "^3.0.3",
-    "react": "^17.0.0"
+    "ink": "^3.0.9",
+    "react": "^17.0.2"
   },
   "devDependencies": {
-    "standard-version": "9.3.0"
+    "standard-version": "9.3.1"
   }
 }
