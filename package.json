@@ -35,6 +35,6 @@
     "react": "^17.0.2"
   },
   "devDependencies": {
-    "standard-version": "9.3.2"
+    "standard-version": "9.5.0"
   }
 }
