@@ -31,7 +31,7 @@
     "bent": "^7.3.12",
     "dotenv": "^16.0.0",
     "import-jsx": "^4.0.0",
-    "ink": "^3.0.9",
+    "ink": "^4.0.0",
     "react": "^17.0.2"
   },
   "devDependencies": {
